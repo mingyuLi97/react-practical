@@ -1,3 +1,5 @@
 # React Practical
 
-整理 React 的一些最佳实践
+## PropForwarding
+
+开发组件时透传 className、style
