@@ -1,5 +1,6 @@
 /**
  * forwardRef
+ * 用于转发 Ref，一般用于父组件访问子组件的方法、元素。
  */
 
 import { useImperativeHandle, useRef, forwardRef, useEffect } from "react";

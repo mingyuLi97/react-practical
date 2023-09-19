@@ -1,5 +1,9 @@
 /**
  * createRef 和 useRef 区别
+ * - useRef 只能用于函数式组件
+ * - createRef常用于类组件, 其并没有 Hooks 的效果，
+ *   其值会随着 FunctionComponent 重复执行而不断被初始化，
+ *   每次拿到的引用都是新的，所以不建议放在函数式组件
  */
 
 import { createRef, useEffect, useRef, useState } from "react";
